@@ -1,0 +1,1 @@
+Burası install blade sayfası {{$dabase}}
