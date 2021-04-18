@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78deefce-f659-435e-be43-bd2b33f58af0" name="Default Changelist" comment="Dingo Projesi eklendi">
+    <list default="true" id="7b5e656d-7560-4dcd-a466-ccc74729f5a1" name="New changelist (2)" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+    </list>
+    <list id="78deefce-f659-435e-be43-bd2b33f58af0" name="Default Changelist" comment="Dingo Projesi eklendi">
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Vagrantfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
@@ -2129,6 +2132,7 @@
       <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
+    <list id="d21efe9d-2d79-4c41-ac58-81337f77d6f4" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -2339,13 +2343,14 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
       <changelist id="78deefce-f659-435e-be43-bd2b33f58af0" name="Default Changelist" comment="" />
       <changelist id="" name="dingo" comment="" />
+      <changelist id="d21efe9d-2d79-4c41-ac58-81337f77d6f4" name="New changelist" comment="" />
       <created>1617998077855</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617998077855</updated>
+      <updated>1618733266014</updated>
       <workItem from="1617998080853" duration="5692000" />
       <workItem from="1618059117413" duration="158000" />
       <workItem from="1618059492933" duration="1486000" />
@@ -2370,7 +2375,7 @@
       <workItem from="1618688233651" duration="75000" />
       <workItem from="1618695759939" duration="45000" />
       <workItem from="1618698575728" duration="1998000" />
-      <workItem from="1618728103742" duration="4956000" />
+      <workItem from="1618728103742" duration="5161000" />
     </task>
     <task id="LOCAL-00001" summary="Dingo Proje">
       <created>1618729641163</created>
@@ -2407,7 +2412,24 @@
       <option name="project" value="LOCAL" />
       <updated>1618732900270</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Dingo Projesi eklendi">
+      <created>1618733214289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618733214289</updated>
+    </task>
+    <task active="true" id="LOCAL-00007" summary="New changelist (2)">
+      <changelist id="7b5e656d-7560-4dcd-a466-ccc74729f5a1" name="New changelist (2)" comment="" />
+      <created>1618733266005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618733266014</updated>
+      <workItem from="1618733266612" duration="113000" />
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2429,16 +2451,6 @@
     <MESSAGE value="Dingo Proje" />
     <MESSAGE value="Dingo Projesi eklendi" />
     <option name="LAST_COMMIT_MESSAGE" value="Dingo Projesi eklendi" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/admin/index.blade.php</url>
-          <line>315</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>
