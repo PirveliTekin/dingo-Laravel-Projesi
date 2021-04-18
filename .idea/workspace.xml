@@ -247,7 +247,7 @@
       <workItem from="1618695759939" duration="45000" />
       <workItem from="1618698575728" duration="1998000" />
       <workItem from="1618728103742" duration="5161000" />
-      <workItem from="1618733449652" duration="21699000" />
+      <workItem from="1618733449652" duration="21779000" />
     </task>
     <task id="LOCAL-00001" summary="Dingo Proje">
       <created>1618729641163</created>
@@ -335,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618758997036</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Dingo Temasının İndex sayfası yüklendi">
+      <created>1618759145157</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1618759145157</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
