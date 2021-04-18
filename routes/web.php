@@ -20,7 +20,7 @@ use \App\Http\Controllers;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-Route::get('/',[HomeController::class,'index']);
+Route::get('/index',[HomeController::class,'index']);
 Route::group(['middleware' => 'guest'],function (){
     Route::resource('/install','InstallController');
 });
