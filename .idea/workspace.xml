@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d21efe9d-2d79-4c41-ac58-81337f77d6f4" name="New changelist" comment="Dingo Temasının İndex sayfası yüklendi">
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="d21efe9d-2d79-4c41-ac58-81337f77d6f4" name="New changelist" comment="Dingo Temasının İndex sayfası yüklendi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +247,7 @@
       <workItem from="1618695759939" duration="45000" />
       <workItem from="1618698575728" duration="1998000" />
       <workItem from="1618728103742" duration="5161000" />
-      <workItem from="1618733449652" duration="21599000" />
+      <workItem from="1618733449652" duration="21699000" />
     </task>
     <task id="LOCAL-00001" summary="Dingo Proje">
       <created>1618729641163</created>
@@ -325,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618757109178</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Dingo Temasının İndex sayfası yüklendi">
+      <created>1618758986260</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618758986260</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Dingo Temasının İndex sayfası yüklendi">
+      <created>1618758997036</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1618758997036</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
