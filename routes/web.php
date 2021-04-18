@@ -1,11 +1,11 @@
 <?php
 
 
-use App\Http\Controllers\InstallController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Admin;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\RouteController;
+use \App\Http\Controllers;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +17,10 @@ use App\Http\Controllers\Admin\RouteController;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+Route::get('/',[HomeController::class,'index']);
 Route::group(['middleware' => 'guest'],function (){
     Route::resource('/install','InstallController');
 });
