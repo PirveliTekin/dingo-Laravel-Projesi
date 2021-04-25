@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Frontend\AboutController;
 use App\Http\Controllers\Frontend\BlogController;
 use App\Http\Controllers\Frontend\ChefsController;
@@ -42,6 +43,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::namespace('Admin')->prefix('admin')->middleware(['auth','admin'])->name('admin.')->group(function (){
     Route::get('/', [AdminController::class, 'index'])->name('anasayfa');
     Route::get('/routes', [RouteController::class, 'index'])->name('routes');
+    Route::get('/users', [UserController::class, 'index'])->name('user');
+
 });
 
 
