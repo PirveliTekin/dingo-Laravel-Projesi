@@ -1,11 +1,16 @@
 <?php
 
 
+use App\Http\Controllers\Frontend\AboutController;
+use App\Http\Controllers\Frontend\BlogController;
+use App\Http\Controllers\Frontend\ChefsController;
+use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\MenuController;
+use App\Http\Controllers\Frontend\SingleblogController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\RouteController;
-use \App\Http\Controllers;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,16 +25,22 @@ use \App\Http\Controllers;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-Route::get('/',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index'])->name('index');
+/*Route::get('/',[AboutController::class,'index'])->name('index');*/
+Route::resource('/about',AboutController::class);
+Route::resource('/menu',MenuController::class);
+Route::resource('/contact',ContactController::class);
+Route::resource('/chefs',ChefsController::class);
+Route::resource('/blog',BlogController::class);
+Route::resource('/singleblog',SingleblogController::class);
 Route::group(['middleware' => 'guest'],function (){
     Route::resource('/install','InstallController');
 });
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
-Route::namespace('Admin')->prefix('admin')->middleware(['auth'])->name('admin.')->group(function (){
-    Route::get('/anasayfa', [AdminController::class, 'index'])->name('anasayfa');
+Route::namespace('Admin')->prefix('admin')->middleware(['auth','admin'])->name('admin.')->group(function (){
+    Route::get('/', [AdminController::class, 'index'])->name('anasayfa');
     Route::get('/routes', [RouteController::class, 'index'])->name('routes');
 });
 
