@@ -40,11 +40,10 @@ Route::group(['middleware' => 'guest'],function (){
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
-Route::namespace('Admin')->prefix('admin')->middleware(['auth','admin'])->name('admin.')->group(function (){
+Route::prefix('admin')->middleware(['auth','admin'])->name('admin.')->group(function (){
     Route::get('/', [AdminController::class, 'index'])->name('anasayfa');
     Route::get('/routes', [RouteController::class, 'index'])->name('routes');
-    Route::get('/users', [UserController::class, 'index'])->name('user');
-
+    Route::resource('/users',UserController::class);
 });
 
 
