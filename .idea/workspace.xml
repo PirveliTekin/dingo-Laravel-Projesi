@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d21efe9d-2d79-4c41-ac58-81337f77d6f4" name="New changelist" comment="user şablon sayfası eklendi">
+    <list default="true" id="d21efe9d-2d79-4c41-ac58-81337f77d6f4" name="New changelist" comment="user tablosunu listeledik edit ve delete butonları ekledik">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/PermisssionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/permission/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/permission/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/route/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/route/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -187,7 +196,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -198,10 +207,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Requests" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/permission" />
       <recent name="$PROJECT_DIR$/resources/frontend" />
       <recent name="$PROJECT_DIR$/resources/admin" />
       <recent name="$PROJECT_DIR$/resources/views/frontend" />
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Frontend" />
@@ -264,7 +274,13 @@
       <workItem from="1619187810802" duration="6000" />
       <workItem from="1619240009565" duration="13268000" />
       <workItem from="1619278927023" duration="13345000" />
-      <workItem from="1619355963992" duration="7386000" />
+      <workItem from="1619355963992" duration="27784000" />
+      <workItem from="1619453620102" duration="12438000" />
+      <workItem from="1619515103739" duration="18164000" />
+      <workItem from="1619590928911" duration="549000" />
+      <workItem from="1619607281166" duration="5960000" />
+      <workItem from="1619629829112" duration="717000" />
+      <workItem from="1619729944924" duration="10617000" />
     </task>
     <task id="LOCAL-00001" summary="Dingo Proje">
       <created>1618729641163</created>
@@ -400,7 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619359429978</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="user tablosunu listeledik edit ve delete butonları ekledik">
+      <created>1619368114695</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1619368114695</updated>
+    </task>
+    <task id="LOCAL-00021" summary="user tablosunu listeledik edit ve delete butonları ekledik">
+      <created>1619368236818</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1619368236818</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -428,7 +458,8 @@
     <MESSAGE value="Dingo Temasının İndex sayfası yüklendi" />
     <MESSAGE value="Dingo Entegre edildi ve Account modülü login/logot işlemleri yapıldı.Admin panelindeki Logout linkine çıkış eklendi." />
     <MESSAGE value="user şablon sayfası eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="user şablon sayfası eklendi" />
+    <MESSAGE value="user tablosunu listeledik edit ve delete butonları ekledik" />
+    <option name="LAST_COMMIT_MESSAGE" value="user tablosunu listeledik edit ve delete butonları ekledik" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">

@@ -12,6 +12,7 @@ use App\Http\Controllers\Frontend\SingleblogController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\RouteController;
+use App\Http\Controllers\Admin\PermissionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -44,6 +45,7 @@ Route::prefix('admin')->middleware(['auth','admin'])->name('admin.')->group(func
     Route::get('/', [AdminController::class, 'index'])->name('anasayfa');
     Route::get('/routes', [RouteController::class, 'index'])->name('routes');
     Route::resource('/users',UserController::class);
+    Route::resource('/permissions',PermissionController::class);
 });
 
 
